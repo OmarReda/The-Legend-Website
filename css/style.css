@@ -121,13 +121,13 @@ body {
   color: rgba(255, 99, 68, 0.719);
 }
 
-#Offer .part a{
-    color: black;
-    text-decoration: none;
+#Offer .part a {
+  color: black;
+  text-decoration: none;
 }
 
-#Offer .part a:hover{
-    color: rgba(255, 80, 51, 0.856);
+#Offer .part a:hover {
+  color: rgba(255, 80, 51, 0.856);
 }
 
 #Offer .part {
@@ -740,6 +740,33 @@ body {
 /* FAQ Page */
 /************/
 
+/* Header Start */
+
+#FAQ-header {
+  background-color: rgba(255, 80, 51, 0.856);
+  height: 100px;
+}
+
+#FAQ-header .how-nav img {
+  width: 150px;
+  position: absolute;
+  margin: auto;
+  top: 25px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#FAQ-header .how-nav .nav-item {
+  padding-top: 25px;
+}
+
+/* Header End */
+
+/*********************************************************/
+
+/* FAQ Section Start */
+
 #FAQ-section .container {
   margin-bottom: 50px;
   margin-top: 50px;
@@ -781,9 +808,326 @@ button.accordion.is-open {
   transition: max-height 0.2s ease-in-out;
 }
 
-/* FAQ Page End */
+/* FAQ Section End */
 
 /****************************************************************************************/
 
-/* FAQ Page */
-/************/
+/* For Selling Page Start */
+/**************************/
+
+
+/* Header Start */
+
+#For-Selling-header {
+  background-color: rgba(255, 80, 51, 0.856);
+  height: 100px;
+}
+
+#For-Selling-header .how-nav img {
+  width: 150px;
+  position: absolute;
+  margin: auto;
+  top: 25px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#For-Selling-header .how-nav .nav-item {
+  padding-top: 25px;
+}
+
+/* Header End */
+
+/*********************************************************/
+
+/* Side Bar Start */
+
+#Side-bar .container{
+  width: 25%;
+  padding-top:10px;
+  height: 800px;
+  display: inline-block;
+  position: absolute;
+}
+
+
+/** Slick Dark style **/
+
+.cusDD_slick_d {
+  position: relative;
+  width: 250px;
+  margin: auto;
+  
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  
+  text-align: left;
+  text-indent: 20px;
+  color: #000;
+}
+
+.cusDD_slick_d .cusDD_select {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid #505050;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  z-index: 0;
+  border-radius: 5px;
+}
+.cusDD_slick_d .cusDD_arrow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  background: url("http://skyscrapercenter.com/img/chevron-down.png") no-repeat;
+  background-size: 60% auto;
+  background-position: 50% 50%;
+}
+.cusDD_slick_d .cusDD_arrow.active {
+  background: url("http://skyscrapercenter.com/img/chevron-down.png") no-repeat;
+  background-size: 60% auto;
+  background-position: 50% 50%;
+}
+
+.cusDD_slick_d .cusDD_options {
+  background: rgba(0, 0, 0, 0.4);
+  border-left: 1px solid #505050;
+  border-right: 1px solid #505050;
+  border-bottom: 1px solid #505050;
+  border-radius: 5px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: none;
+}
+
+.cusDD_slick_d .cusDD_opt {
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  display: block;
+  position: relative;
+  transition: 300ms;
+  overflow: hidden;
+}
+.cusDD_slick_d .cusDD_opt:before {
+  content: "";
+  z-index: -1;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -320px;
+  height: inherit;
+  width: 300px;
+  transform: skew(-30deg);
+  background: rgba(0, 0, 0, 0.2);
+  border-right: 1px solid #505050;
+  transition: 300ms;
+}
+.cusDD_slick_d .cusDD_opt:hover:before {
+  transform: skew(-30deg) translateX(300px);
+}
+
+.cusDD_slick_d .cusDD_opt:hover{
+ color: white;
+}
+
+.cusDD_slick_d .cusDD_select:hover {
+  background-color: rgba(255, 80, 51, 0.856);
+  color: white;;
+}
+
+
+
+#Side-bar .dropdown {
+  width: 45%;
+  display: inline-block;
+  margin-bottom: 160px;
+  margin-left: 10px;
+}
+
+#Side-bar .dropdown p{
+  font-size: 18px;
+  text-align: left;
+}
+
+#Side-bar .dropdown #select2,
+#Side-bar .dropdown #select3 {
+  width: 100%;
+  display: inline-block;
+}
+
+#Side-bar .type-value {
+  margin-bottom: 30px;
+}
+
+#Side-bar .search {
+  text-align: center;
+  margin-bottom:50px;
+}
+
+#Side-bar .search-button {
+  background-color: darkblue;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#Side-bar .btn:hover {
+  background-color: rgba(255, 80, 51, 0.856);
+}
+
+/* Side Bar End */
+
+/*********************************************************/
+
+/* Productss Start */
+
+
+#Products .for-selling-section-container {
+  padding-top: 5px;
+  width: 70%;
+  display: inline-block;
+  margin-left: 380px;
+  margin-bottom: 100px;
+}
+
+#Products .item {
+  margin-top: 25px;
+}
+
+#Products .card {
+  width: 250px;
+  position: relative;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 1px 1px 12px 8px lightgray;
+}
+
+#Products .card img {
+  width: 100%;
+  height: 180px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#Products .lead .more-selling {
+  padding-right: 70px;
+  padding-left: 70px;
+  margin: 60px;
+  box-shadow: 2px 2px 10px 3px gray;
+}
+
+#Products .selling-icons {
+  padding: 5px 10px 10px 10px;
+  color: rgba(255, 99, 68, 0.719);
+}
+
+#Products .price {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+#Products .info a {
+  position: relative;
+  width: 80%;
+  float: right;
+}
+
+#Products .info i {
+  width: 20%;
+  position: relative;
+  padding-left: 12px;
+}
+
+#Products .one .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: darkblue;
+  border-radius: 15px;
+}
+
+#Products .overlay img {
+  width: 180px;
+  height: 150px;
+  position: absolute;
+  margin: 0 auto;
+  top: 40px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#Products .two .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: rgb(255, 105, 99);
+  border-radius: 15px;
+}
+
+#Products .overlay .details-hover {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin-top: 90%;
+  cursor: pointer;
+}
+/* When you mouse over the container, fade in the overlay icon*/
+#Products .one :hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#Products .two :hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+/* The icon inside the overlay is positioned in the middle vertically and horizontally */
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* When you move the mouse over the icon, change color */
+.fa-user:hover {
+  color: #eee;
+  cursor: pointer;
+}
+
+/* Products End */
+
+/****************************************************************************************/
+
+/* For Selling Page Start */
+/**************************/
