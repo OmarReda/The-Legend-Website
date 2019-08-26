@@ -290,6 +290,16 @@ body {
   margin-top: 90%;
   cursor: pointer;
 }
+
+#For-selling .details-hover a{
+  text-decoration: none;
+  color: white;
+}
+
+#For-selling .details-hover a:hover{
+  text-decoration: underline; 
+}
+
 /* When you mouse over the container, fade in the overlay icon*/
 #For-selling .one :hover .overlay {
   opacity: 1;
@@ -815,7 +825,6 @@ button.accordion.is-open {
 /* For Selling Page Start */
 /**************************/
 
-
 /* Header Start */
 
 #For-Selling-header {
@@ -849,6 +858,7 @@ button.accordion.is-open {
   height: 800px;
   display: inline-block;
   position: absolute;
+  margin-left: 20px;
 }
 
 
@@ -1131,3 +1141,152 @@ button.accordion.is-open {
 
 /* For Selling Page Start */
 /**************************/
+
+/* Header Start */
+
+#For-Selling-header {
+  background-color: rgba(255, 80, 51, 0.856);
+  height: 100px;
+}
+
+#For-Selling-header .how-nav img {
+  width: 150px;
+  position: absolute;
+  margin: auto;
+  top: 25px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#For-Selling-header .how-nav .nav-item {
+  padding-top: 25px;
+}
+
+/* Header End */
+
+/*********************************************************/
+
+/* Side Bar Start */
+
+#Side-Bar-Unit .container{
+  width: 25%;
+  height: 800px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 6%;
+}
+
+
+#Side-Bar-Unit .call {
+  text-align: center;
+  margin-bottom:20px;
+  margin-top: 20px;
+}
+
+#Side-Bar-Unit .email {
+  text-align: center;
+  margin-bottom:50px;
+}
+
+
+#Side-Bar-Unit .call-button {
+  background-color: rgba(255, 80, 51, 0.856);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 40px;
+}
+
+#Side-Bar-Unit .email-button {
+  background-color: white;
+  border-radius: 30px;
+  color: darkblue;
+  border:2px solid darkblue;
+  padding-left: 42px;
+  padding-right: 42px;
+  height: 40px;
+}
+
+#Side-Bar-Unit .call-button:hover {
+  background-color: darkblue;
+}
+
+#Side-Bar-Unit .email-button:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+#Side-Bar-Unit .info {
+  margin-left: 10%;
+}
+
+#Side-Bar-Unit .Info-body .type{
+  margin-left: 10%;
+}
+
+
+#Side-Bar-Unit .selling-icons {
+  padding: 5px 10px 10px 10px;
+  color: rgba(255, 99, 68, 0.719);
+}
+
+#Side-Bar-Unit .price {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10%;
+}
+
+#Side-Bar-Unit .info a {
+  position: relative;
+  width: 80%;
+}
+
+#Side-Bar-Unit .info i {
+  position: relative;
+  padding-left: 12px;
+  margin-right: 5px;
+}
+/* Side Bar End */
+
+/*********************************************************/
+
+/* Unit Start */
+
+#Unit .for-selling-section-container {
+  padding-top: 5px;
+  width: 70%;
+  display: inline-block;
+  margin-bottom: 100px;
+  margin-left: 30px;
+}
+
+ #Unit .landscape img{
+   width:95%;
+   margin-bottom: 20px;
+ }
+
+ #Unit .description{
+   margin-left: 20px;
+   width: 90%;
+ }
+
+ #Unit .features{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+
+ #Unit .location{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+ }
+
+ #Unit .location iframe{
+  margin-top: 20px;
+ }
