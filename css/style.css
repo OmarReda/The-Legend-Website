@@ -452,7 +452,12 @@ body {
   padding-bottom: 10px;
 }
 
-#Footer .footer-menu ul li:hover {
+#Footer .footer-menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#Footer .footer-menu ul li a:hover {
   color: rgba(255, 99, 68, 0.719);
   cursor: pointer;
 }
